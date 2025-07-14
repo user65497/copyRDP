@@ -4,10 +4,10 @@ on:
 
 jobs:
   build:
-	name: Start Building
-	runs-on: windows-latest
+name:Start Building
+runs-on: windows-latest
 
-	steps:
+steps:
   	- name: Downloading & installing Essentials
     	run: |
       	Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
